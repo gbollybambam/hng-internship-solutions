@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gbolahan Olanrewaju | Frontend Developer</title>
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@700,500,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page-container">
+        <header>
+            <nav>
+                <div class="nav-logo">G.O</div>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <article data-testid="test-profile-card" class="profile-card">
+                <div class="card-glow"></div>
+                <div class="card-content">
+                    <section class="main-content">
+                        <figure>
+                            <img data-testid="test-user-avatar"
+                                src="https://ca.slack-edge.com/T09AMR8A9C3-U09LE1181MH-c225cdd976e3-72"
+                                alt="Profile picture of Gbolahan Olanrewaju">
+                        </figure>
+                        <div class="user-info">
+                            <h2 data-testid="test-user-name">Gbolahan Olanrewaju</h2>
+                            <p data-testid="test-user-bio">A passionate frontend developer building accessible and
+                                responsive web experiences. I love turning complex problems into simple, beautiful, and
+                                intuitive designs.</p>
+                            <ul data-testid="test-user-social-links">
+                                <li><a href="https://github.com/gbollybambam" target="_blank" rel="noopener noreferrer"
+                                        data-testid="test-user-social-github">GitHub</a></li>
+                                <li><a href="https://www.linkedin.com/in/gbolahan-olanrewaju-672880261/" target="_blank"
+                                        rel="noopener noreferrer" data-testid="test-user-social-linkedin">LinkedIn</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <aside class="sidebar-content">
+                        <section class="user-details">
+                            <h3>Hobbies</h3>
+                            <ul data-testid="test-user-hobbies">
+                                <li>Coding</li>
+                                <li>Photography</li>
+                                <li>Evangelism</li>
+                                <li>Bible Study</li>
+                            </ul>
+                        </section>
+                        <section class="user-details">
+                            <h3>Dislikes</h3>
+                            <ul data-testid="test-user-dislikes">
+                                <li>Slow Wi-Fi</li>
+                                <li>Unsemantic HTML</li>
+                                <li>Bugs in production</li>
+                            </ul>
+                        </section>
+                        <section class="user-details time-section">
+                            <h3>Current UTC Time (ms)</h3>
+                            <p data-testid="test-user-time"></p>
+                        </section>
+                    </aside>
+                </div>
+            </article>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

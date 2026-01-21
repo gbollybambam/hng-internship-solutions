@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.env        # CRITICAL: Ignores your local secret variables
+venv/       # Ignores your virtual environment directory
+
+# Django Stuff
+*.log
+local_settings.py
+db.sqlite3  # CRITICAL: Ignores your local SQLite database file
+/static/
+/media/
+
+# IDE files
+.vscode/    # Ignores VS Code configuration files
+.idea/
