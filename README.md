@@ -7,11 +7,11 @@ These projects demonstrate rapid engineering capabilities, API specification com
 
 | Stage / Type | Project Name | Tech Stack | Key Features | Solution |
 | :--- | :--- | :--- | :--- | :--- |
-| 🔴 **Stage 1** | **String Processor API** | Node.js, Express | Dynamic string analysis, logic filtering, RESTful architecture. | [View Code](./hng-backend-task-2-main) |
-| 🔴 **Stage 0** | **User Profile API** | Django, Python | JSON response handling, CORS configuration, ISO 8601 timestamps. | [View Code](./hng-stage0-profile-api-main) |
-| 🟢 **Stage 0** | **Identity Card UI** | HTML5, CSS3 | Semantic markup, responsive layout, `data-testid` compliance. | [View Code](./hng-profile-card-task1-frontend-main) |
-| 🟡 **Side Project** | **Country Currency API** | Python, Django | Fetching and mapping global currency data from external sources. | [View Code](./country-currency-api-main) |
-| 🔵 **Side Project** | **Dev Analyst Tool** | Python | Data analysis scripts for developer metrics and reporting. | [View Code](./dev-analyst-project-main) |
+| 🔴 **Stage 1** | **String Processor API** | Node.js, Express | Dynamic string analysis, logic filtering, RESTful architecture. | [View Code](./hng-backend-task-2) |
+| 🔴 **Stage 0** | **User Profile API** | Django, Python | JSON response handling, CORS configuration, ISO 8601 timestamps. | [View Code](./hng-stage0-profile-api) |
+| 🟢 **Stage 0** | **Identity Card UI** | HTML5, CSS3 | Semantic markup, responsive layout, `data-testid` compliance. | [View Code](./hng-profile-card-task1-frontend) |
+| 🟡 **Side Project** | **Country Currency API** | Python, Django | Fetching and mapping global currency data from external sources. | [View Code](./country-currency-api) |
+| 🔵 **Side Project** | **Dev Analyst Tool** | Python | Data analysis scripts for developer metrics and reporting. | [View Code](./dev-analyst-project) |
 
 ---
 
